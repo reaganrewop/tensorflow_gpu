@@ -5,6 +5,7 @@ Prerequisites:-
 Make sure you have installed all of the below:-
            
      ->  Nvidia Current Drivers  (Try to install stable version instead of latest.)
+
               => You can verify your installation by typing the following in terminal
                          $ sudo nvidia-smi
                          This should have outputed a table which specifies your version.
@@ -19,12 +20,14 @@ Make sure you have installed all of the below:-
                          $ nvidia-smi
                          $ sudo apt-mark hold nvidia-current
                          The above comman will prevent future updates, therefore your driver will be stable
-												 All is done.
+
 												 
-		 ->  python3
-		 ->  pip
-		 					=> If you don't have pip install using the below commands
-						             $ sudo apt-get install python3-pip
+     ->  python3
+   
+     ->  pip
+	   => If you don't have pip install using the below commands
+
+		        $ sudo apt-get install python3-pip
 		
 If you have all the above, then we are good to go.
 
@@ -32,15 +35,16 @@ Installing the Script:-
 		->Download the install.sh script from this repo
 		
 		-> move it to home directory & run it, using the below command
-						$ sudo ./install.sh
-						if you have not accessable error, then type the below command
-						$ sudo chmod 777 install.sh
+			$ sudo ./install.sh
+
+		if you have not accessable error, then type the below command
+			$ sudo chmod 777 install.sh
 
  		Verify:-
 		
-    -> To check if everything has installed perfectly, type the below command
-						$ sudo nvcc --version
-						You will get a nice message of the version which is installed.
+                -> To check if everything has installed perfectly, type the below command
+			$ sudo nvcc --version
+		You will get a nice message of the version which is installed.
 				
 
  If you have any error Commend below. I will try to respond.
