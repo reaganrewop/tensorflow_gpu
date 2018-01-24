@@ -39,6 +39,10 @@ export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64\
 ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 
 
+#install nvidia cuda toolkit
+
+sudo apt install nvidia-cuda-toolkit
+
 #Install tensorflow w/ gpu
 
 sudo apt-get install python3-pip python3-dev
